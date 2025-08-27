@@ -17,11 +17,20 @@
     <section class="hero">
        <h2>Start your learning path here</h2>
        <div>
-        <img src="/Users/eswar/Downloads/7-Hero-4K.png "\>
+        <img src="7-Hero-4K.png" width="100px" height="100px" \>
         <p>
             "The beautiful thing about learning is nobody can take it away from you."
         </p>
        </div>
+       <form action="/submit-form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="enter@example.com" required size="30"><br><br>
+            <label for="userMessage">Your Message:</label><br>
+            <textarea id="userMessage" name="messageContent" rows="5" cols="40" placeholder="Enter your message here..."></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
     </section>
     <footer>
         <p>&copy; 2025 My Website</p>
